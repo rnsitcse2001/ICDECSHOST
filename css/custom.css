@@ -37,7 +37,7 @@ ol.alpha-char { list-style-type: lower-alpha; }
 .the-slideshow-wrapper .the-slideshow .slides .slide { min-height: 170px; }
 .slide-content { font-family:proxima_nova_rgbold; text-transform:uppercase; color:#ffffff; float:right; }
 .slide-content .slide-middle-text {font-size:26px ;padding:2px 0px; background: url("../images/slide-middle-text-bg.png") no-repeat scroll left top; margin: 0 0 0 125px; text-align:right;  }
-.slide-content .slide-top-text { font-size:41px;;background: url("../images/slide-top-text-bg.png") no-repeat scroll left top; margin:0px; text-shadow:1px 2px grey; padding-left:5px;}
+.slide-content .slide-top-text { font-size:26px;;background: url("../images/menu-bg.png") no-repeat scroll left top; margin:0px; text-shadow:1px 2px grey; padding-left:15px;}
 .slide-content .slide-bottom-text { text-align:right; font-size:14px; opacity: 0.55; padding-right:14px; display:block; line-height:normal; background:#000000; padding:3px 10px;}
 ul.slide-content-1 { position:absolute; top:0px; z-index: 2147483647; right:165px;}
 .slide-bottom-text > span {font-family:proxima_nova_rgregular;}
@@ -137,7 +137,7 @@ ul.slide-content-1 { position:absolute; top:0px; z-index: 2147483647; right:165p
 /* Slider top-left box */
 .slide_content {float: right;position: absolute;right: 21px;width: 390px !important;z-index: 99999999;text-align:right;text-transform:uppercase;color:#ffffff;font-family:proxima_nova_rgbold;}
 .slidescontent_wrap {position:relative;}
-.slide-top-text {background: url("../images/slide-top-text-bg.png") no-repeat scroll left top rgba(0, 0, 0, 0);font-size: 40px;margin: 0;padding-left: 5px;text-shadow: 1px 2px grey;}
+.slide-top-text {background: url("../images/menu-bg.png") no-repeat scroll left top rgba(0, 0, 0, 0);font-size: 26px;margin: 0;padding-left: 5px;text-shadow: 1px 2px grey;}
 .slide-middle-text {background: url("../images/slide-middle-text-bg.png") no-repeat scroll left top rgba(0, 0, 0, 0);font-size: 22px;margin: 0 0 0 125px;padding: 2px 0;text-align: right;}
 .slide-bottom-text {background: none repeat scroll 0 0 #000000;display: block;font-size: 14px;line-height: 15px;opacity: 0.65;padding-right: 14px;text-align: right;padding-top: 5px;padding-bottom: 5px;margin-left:45px;}
 
