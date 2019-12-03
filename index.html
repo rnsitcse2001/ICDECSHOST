@@ -194,6 +194,7 @@ font-family:proxima_nova_regular;
                 <div class="main container show-bg">
                     <div class="col-main grid12-8 grid-col2-main in-col2">
                         <div class="std">
+ 
 <div><marquee><a href="instruction.html"><font color="#27373A"><h4>All accepted and presented papers will be published in - Elsevier Scopus indexed journal.</h4></font></a></marquee></div>							
 <div><marquee><a href="instruction.html"><font color="#F58634"><h4>Submit papers to icdecs2019@gmail.com.</h4></font></a></marquee></div>
 			<div><marquee><a href="conclave.html"><font color="#2F21CF"><h4>Call for Doctoral Conclave.</h4></font></a></marquee></div>
@@ -226,6 +227,31 @@ the research ideas & solution approaches for problems of today's Communication a
 							</div>
 							
                         </div>
+ 
+
+var deadline = new Date("dec 19, 2019").getTime(); 
+
+var x = setInterval(function() { 
+
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes; 
+document.getElementById("second").innerHTML =seconds; 
+if (t < 0) { 
+		clearInterval(x); 
+		document.getElementById("demo").innerHTML = "TIME UP"; 
+		document.getElementById("day").innerHTML ='0'; 
+		document.getElementById("hour").innerHTML ='0'; 
+		document.getElementById("minute").innerHTML ='0' ; 
+		document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script>						
 						
                         <div class="grid-full alpha home-box">
                             <div class="grid12-6 alpha">
