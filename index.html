@@ -194,11 +194,91 @@ font-family:proxima_nova_regular;
                 <div class="main container show-bg">
                     <div class="col-main grid12-8 grid-col2-main in-col2">
                         <div class="std">
- 
-<div><marquee><a href="instruction.html"><font color="#27373A"><h4>All accepted and presented papers will be published in - Elsevier Scopus indexed journal.</h4></font></a></marquee></div>							
-<div><marquee><a href="instruction.html"><font color="#F58634"><h4>Submit papers to icdecs2019@gmail.com.</h4></font></a></marquee></div>
+ <div>
+	 
+<style> 
+ #clockdiv{ 
+    font-family: sans-serif; 
+    color: #fae17d; 
+    display: inline-block; 
+    font-weight: 100; 
+    text-align: center; 
+    font-size: 30px; 
+} 
+#clockdiv > div{ 
+    padding: 10px; 
+    border-radius: 3px; 
+    background: #121943; 
+    display: inline-block; 
+} 
+#clockdiv div > span{ 
+    padding: 15px; 
+    border-radius: 3px; 
+    background: #1b2665; 
+    display: inline-block; 
+} 
+smalltext{ 
+    padding-top: 5px; 
+    font-size: 16px; 
+} 
+</style> 
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Count Down - ICDECS 2019</h2>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div id="clockdiv"> 
+  <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div> 
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+  
+<p id="demo"></p> 
+  
+<script> 
+  
+var deadline = new Date("dec 19, 2019 09:00:00").getTime(); 
+  
+var x = setInterval(function() { 
+   
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "ICDECS 2019 has started "; 
+        document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 							
+</div>					
+<div><marquee><a href="images/Invitation Vertical.jpg"><font color="#2F21CF"><h4>You are cordially invited for inaugural function of ICDECS - 2019</h4></font> </a></marquee></div>							
+<div><marquee><a href="instruction.html"><font color="#27373A"><h4>All accepted and presented papers will be published in - Elsevier Scopus indexed journal.</h4></font></a></marquee></div>
+							
+<div><a href="invitedspeaker.html"><font color="#F58634"><h4>Invited Speaker Details</h4></font></a></div>
+<div><a href="tutorialspeaker.html"><font color="#F58634"><h4>Tutorial Session Details </h4></font></a></div>
+<div><a href="panelspeakers.html"><font color="#F58634"><h4>Panal Discussion Details</h4></font></a></div>
 			<div><marquee><a href="conclave.html"><font color="#2F21CF"><h4>Call for Doctoral Conclave.</h4></font></a></marquee></div>
-			<div><a href="important-dates.html"><font color="#EA0A0E"><h4>Deadline for Registration is extended up to 30-Nov-2019.</h4></font></a></div>
+			<div><a href="important-dates.html"><font color="#EA0A0E"><h4>Deadline for Registration is  Closed <del>30-Nov-2019</del>.</h4></font></a></div>
                             <div class="welcome-text">
 								
                             <h1 class="welcome-title">Welcome to ICDECS 2019</h1>
@@ -217,7 +297,7 @@ the research ideas & solution approaches for problems of today's Communication a
         cursor:pointer;
         position:absolute;
         left:340px;
-        top:630px;
+        top:940px;
     }
 </style>	
 <!--<img src="img/team/and.png" height=20 width=20>  &nbsp;&nbsp; &nbsp;&nbsp; -->
@@ -286,12 +366,14 @@ the research ideas & solution approaches for problems of today's Communication a
                                     </div>
                                     <div class="download-content">
                                         <ul class="future-list">
-											
+											 <li>
+                                                <h3><a href="invitedspeakers.html" target="_blank"> Invited speakers</a> </h3>
+                                            </li>
 											<li>
                                                 <h3><a href="tutorialspeaker.html" target="_blank"> Tutorial Session</a> </h3>
                                             </li>
 											<li>
-                                                <h3><a href="important-dates.html" target="_blank"> Deadline for Registration is extended up to <br> 30-Nov-2019.</a> </h3>
+                                                <h3><a href="panelspeakers.html" target="_blank"> Panal Discussion</a> </h3>
                                             </li>
                                             <li>
                                                 <h3><a href="instruction.html">All accepted and presented papers will be published in - Elsevier Scopus indexed journal.</a></h3>
@@ -300,9 +382,6 @@ the research ideas & solution approaches for problems of today's Communication a
                                                 <h3><a href="instruction.html">Submit papers to icdecs2019@gmail.com.</a></h3>
                                             </li>
                                             
-                                            <li>
-                                                <h3><a href="invitedspeakers.html" target="_blank"> Invited speakers</a> </h3>
-                                            </li>
                                             <li>
                                                 <h3><a href="special-sessions.html" target="_blank">Call for Doctoral Conclave </a> </h3>
                                             </li>
@@ -350,7 +429,6 @@ the research ideas & solution approaches for problems of today's Communication a
     &nbsp;
 </div>                </div>
 
-			<div><a href="important-dates.html"><font color="#EA0A0E"><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline for Registration is extended up to 30-Nov-2019.</h3></font></a></div>
 			<div align="center"><h2><font color="#2F21CF"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conference Date : December - 19<sup>th</sup> & 20<sup>th</sup> - 2019 </font></b></h2></div>
 				<div class="preface in-col1"> <!-- slideshow start -->
                   <div class="the-slideshow-wrapper clearer">
